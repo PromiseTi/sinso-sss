@@ -17,9 +17,9 @@ function HomepageHeader() {
             <h1> HeathCare + </h1>
             <h1>NFT Infrastructure</h1>
             <p>Let human beings enter the era of democratic medical care</p>
-            <img src="../../static/img/content/img-banner-t2.png" />
+            <img src="/static/img/content/img-banner-t2.png" />
           </div>
-          <img src="../../static/img/content/img-banner-t1.png" />
+          <img src="/static/img/content/img-banner-t1.png" />
         </div>
         {/* <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
