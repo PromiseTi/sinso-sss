@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import HomepageFeatures from '../components/HomepageFeatures'
 
+import Img1 from '../../static/img/content/ban2.svg'
+import Img2 from '../../static/img/content/ban1.svg'
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
@@ -17,9 +19,11 @@ function HomepageHeader() {
             <h1> HeathCare + </h1>
             <h1>NFT Infrastructure</h1>
             <p>Let human beings enter the era of democratic medical care</p>
-            <img src="/static/img/content/img-banner-t2.png" />
+            <Img1 />
           </div>
-          <img src="/static/img/content/img-banner-t1.png" />
+          <div className="img">
+            <Img2 />
+          </div>
         </div>
         {/* <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -40,7 +44,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`SINSO`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
